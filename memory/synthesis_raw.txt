@@ -1,0 +1,55 @@
+{
+  "trends": [
+    {
+      "problem": "Gravitational wave signals from compact astrophysical sources require a high-accuracy, theory-based waveform model for the analysis of recorded signals.",
+      "source": "A Surrogate Model for Gravitational Wave Signals from Comparable- to Large- Mass-Ratio Black Hole Binaries"
+    },
+    {
+      "problem": "predicting mechanical system responses by combining data from different fidelities for design optimization and uncertainty quantification",
+      "source": "Multi-Fidelity Surrogate Based on Single Linear Regression"
+    }
+  ],
+  "common_methods": [
+    "reduced-order surrogate model",
+    "least-squares multi-fidelity surrogate (LS-MFS)",
+    "computational fluid dynamics (CFD) simulations",
+    "deep learning benchmarks",
+    "point cloud learning framework",
+    "Triplane-based neural framework (TripNet)",
+    "UniField employs a shared geometry encoder to extract domain-agnostic representations from surface point clouds",
+    "active learning strategies"
+  ],
+  "datasets": [
+    {
+      "type": "multimodal",
+      "scale": "8,000 diverse car designs",
+      "features": [
+        "detailed 3D meshes",
+        "parametric models",
+        "aerodynamic coefficients",
+        "extensive flow and surface field data",
+        "segmented parts for car classification",
+        "point cloud data"
+      ]
+    },
+    {
+      "type": "T1-w MRIs",
+      "derived data": true,
+      "continuous-valued derived data": true
+    },
+    {
+      "type": "traffic measurement data",
+      "unlabeled form", "data streams"
+    }
+  ],
+  "open_problems": [
+    {
+      "problem": "Accurate modeling of surface pressure fields around objects is fundamental to aerodynamic analysis and design.",
+      "source": "UniField: Joint Multi-Domain Training for Universal Surface Pressure Modeling"
+    },
+    {
+      "problem": "The ability to explain decisions made by machine learning models remains one of the most significant hurdles towards widespread adoption of AI.",
+      "source": "Physics-Inspired Interpretability Of Machine Learning Models"
+    }
+  ]
+}

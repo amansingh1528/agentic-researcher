@@ -1,0 +1,45 @@
+{
+  "trends": [
+    {
+      "method": "Multi-fidelity Residual Neural Processes (MFRNP)"
+    },
+    {
+      "method": "Gaussian process surrogate modeling with manipulating factors"
+    },
+    {
+      "method": "DrivAer Transformer (DAT)"
+    },
+    {
+      "method": "UniField employs a shared geometry encoder"
+    },
+    {
+      "method": "neural models"
+    }
+  ],
+  "common_methods": [
+    "Gaussian processes",
+    "Multi-fidelity Residual Neural Processes (MFRNP)",
+    "DrivAer Transformer (DAT)",
+    "UniField employs a shared geometry encoder",
+    "neural models",
+    "Deep autoregressive models"
+  ],
+  "datasets": [
+    {
+      "name": "DrivAerNet++",
+      "description": "contains high-fidelity CFD data of industrial-standard 3D vehicle shapes"
+    },
+    {
+      "name": "ThingiCFD",
+      "description": "a large-scale CFD dataset constructed from Thingi10k geometries with extensive flow condition randomization"
+    }
+  ],
+  "open_problems": [
+    {
+      "problem": "Maintaining the privacy and security of users' data is of immense importance"
+    },
+    {
+      "problem": "Handling more complex abstractions in long-horizon multi-agent scenarios or under high-dimensional, imbalanced data is challenging"
+    }
+  ]
+}
